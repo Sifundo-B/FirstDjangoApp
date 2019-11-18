@@ -12,13 +12,8 @@
         <label for="choice{{forloop.counter}}"> {{choice.choice_text}}</label> <br>
 
     {% endfor %}
-    <input type="submit" value="vote"/>
+    <input type="submit" value="choose"/>
 
 </form>
 
-<!--<ul>-->
-    <!--{% for choice in question.choice_set.all %}-->
-        <!--<li>{{choice.choice_text}}</li>-->
-    <!--{% endfor %}-->
-<!--</ul>-->
 {% endblock %}
